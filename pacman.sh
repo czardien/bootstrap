@@ -1,7 +1,7 @@
 #!/bin/bash
 # Needs to be run as root; however controversial this might or might not be :shrug:
 
-PACMAN_PACKAGES="fd tmux exa fzf bat the_silver_searcher wget termite openssh picom xclip alsa-utils feh"
+PACMAN_PACKAGES="fd tmux exa fzf bat the_silver_searcher wget termite openssh picom xclip alsa-utils feh networkmanager-openconnect"
 echo "pacman -Sy $PACMAN_PACKAGES"
 pacman -Sy $PACMAN_PACKAGES
 
