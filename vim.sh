@@ -15,5 +15,5 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vi
 # download landscape colors
 echo "mkdir -p ~/.vim/colors"
 mkdir -p ~/.vim/colors
-echo "wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -o ~/.vim/colors/"
+echo "wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -o ~/.vim/colors/landscape.vim"
 wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -o ~/.vim/colors/landscape.vim
