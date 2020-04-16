@@ -20,5 +20,5 @@ echo "[ -e ~/.vim/bundle/syntastic.git ] && echo \"syntastic plugin already inst
 # download landscape colors
 echo "mkdir -p ~/.vim/colors"
 mkdir -p ~/.vim/colors
-echo "[ -e ~/.vim/colors/landscape.vim ] && echo -e \"Colorscheme: landscape already exists\" || wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -o ~/.vim/colors/landscape.vim"
-[ -e ~/.vim/colors/landscape.vim ] && echo -e "Colorscheme: landscape already exists" || wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -o ~/.vim/colors/landscape.vim
+echo "[ -e ~/.vim/colors/landscape.vim ] && echo -e \"Colorscheme: landscape already exists\" || wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -O ~/.vim/colors/landscape.vim"
+[ -e ~/.vim/colors/landscape.vim ] && echo -e "Colorscheme: landscape already exists" || wget https://raw.githubusercontent.com/itchyny/landscape.vim/master/colors/landscape.vim -O ~/.vim/colors/landscape.vim
